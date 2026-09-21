@@ -1,5 +1,6 @@
 import './globals.css'
 import Providers from '../src/components/Providers.jsx'
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: "St. Mary's School",
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>{children}</Providers>
+        <Analytics/>
       </body>
     </html>
   )
