@@ -1,4 +1,4 @@
-import Principal from '../../../../src/pages/about/Principal.jsx'
+import Principal from '../../../../src/site-pages/about/Principal.jsx'
 
 export default function Page() {
   return <Principal />

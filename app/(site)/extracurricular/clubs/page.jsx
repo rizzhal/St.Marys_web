@@ -1,4 +1,4 @@
-import ClubsAndAssociations from '../../../../src/pages/extracurricular/ClubsAndAssociations.jsx'
+import ClubsAndAssociations from '../../../../src/site-pages/extracurricular/ClubsAndAssociations.jsx'
 
 export default function Page() {
   return <ClubsAndAssociations />

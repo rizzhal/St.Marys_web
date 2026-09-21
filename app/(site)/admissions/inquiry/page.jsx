@@ -1,4 +1,4 @@
-import AdmissionInquiry from '../../../../src/pages/admissions/AdmissionInquiry.jsx'
+import AdmissionInquiry from '../../../../src/site-pages/admissions/AdmissionInquiry.jsx'
 
 export default function Page() {
   return <AdmissionInquiry />

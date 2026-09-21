@@ -1,4 +1,4 @@
-import StudentRules from '../../../src/pages/StudentRules.jsx'
+import StudentRules from '../../../src/site-pages/StudentRules.jsx'
 
 export default function Page() {
   return <StudentRules />

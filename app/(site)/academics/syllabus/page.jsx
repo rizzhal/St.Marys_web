@@ -1,4 +1,4 @@
-import Syllabus from '../../../../src/pages/academics/Syllabus.jsx'
+import Syllabus from '../../../../src/site-pages/academics/Syllabus.jsx'
 
 export default function Page() {
   return <Syllabus />

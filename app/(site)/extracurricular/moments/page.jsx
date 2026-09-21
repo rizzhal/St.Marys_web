@@ -1,4 +1,4 @@
-import FormativeMoments from '../../../../src/pages/extracurricular/FormativeMoments.jsx'
+import FormativeMoments from '../../../../src/site-pages/extracurricular/FormativeMoments.jsx'
 
 export default function Page() {
   return <FormativeMoments />
