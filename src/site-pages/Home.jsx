@@ -43,16 +43,16 @@ const Home = () => {
       `}</style>
 
       {/* ============ HERO SECTION ============ */}
-      <section className="relative min-h-[90vh] max-h-[850px] bg-hero-gradient overflow-hidden">
+      <section className="relative w-full min-h-[90vh]  max-h-212.5 bg-hero-gradient overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1 bg-gold-400 z-20" />
         
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gold-50/30 rounded-full -translate-y-1/2 translate-x-1/3" />
-          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-maroon-50/20 rounded-full translate-y-1/2 -translate-x-1/3" />
+          <div className="absolute top-0 right-0 w-125 h-125 bg-gold-50/30 rounded-full -translate-y-1/2 translate-x-1/3" />
+          <div className="absolute bottom-0 left-0 w-100 h-100 bg-maroon-50/20 rounded-full translate-y-1/2 -translate-x-1/3" />
         </div>
 
-        <div className="container-custom relative h-full">
-          <div className="grid grid-cols-1 lg:grid-cols-12 h-full min-h-[90vh] max-h-[850px]">
+        <div className="relative h-full w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-12 h-full min-h-[90vh] max-h-100">
             <div className="lg:col-span-8 xl:col-span-8 relative h-full">
               <HeroCarousel />
             </div>
@@ -131,9 +131,9 @@ const Home = () => {
       <section className="py-16 md:py-20 bg-white relative overflow-hidden">
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-0 w-[300px] h-[300px] bg-maroon-50/30 rounded-full -translate-y-1/2 -translate-x-1/4" />
-          <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-gold-50/20 rounded-full translate-y-1/2 translate-x-1/4" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-maroon-50/10 rounded-full" />
+          <div className="absolute top-0 left-0 w-75 h-75 bg-maroon-50/30 rounded-full -translate-y-1/2 -translate-x-1/4" />
+          <div className="absolute bottom-0 right-0 w-100 h-100 bg-gold-50/20 rounded-full translate-y-1/2 translate-x-1/4" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-maroon-50/10 rounded-full" />
         </div>
 
         <div className="container-custom relative">
@@ -173,8 +173,8 @@ const Home = () => {
       {/* ============ READY TO JOIN ============ */}
       <section className="py-16 bg-maroon-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-[0.06]">
-          <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-gold-400 rounded-full -translate-y-1/2 translate-x-1/3" />
-          <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-gold-300 rounded-full translate-y-1/2 -translate-x-1/3" />
+          <div className="absolute top-0 right-0 w-100 h-100 bg-gold-400 rounded-full -translate-y-1/2 translate-x-1/3" />
+          <div className="absolute bottom-0 left-0 w-75 h-75 bg-gold-300 rounded-full translate-y-1/2 -translate-x-1/3" />
         </div>
 
         <div className="container-custom relative">
